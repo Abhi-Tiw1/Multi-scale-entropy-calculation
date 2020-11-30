@@ -12,7 +12,11 @@ This repository implements various multi-scale entropy algorithms. The algorithm
 - **Entropy calculation**: Entropy calculation for each scale has been done using two different algorithms:
   - Sample entropy algorithm: Uses embedding dimension (m) and tolerance (r) as the main parameters
   - Permutation entropy: Calculates permutation entropy with main parameters being lag and degee of motifs. Additionally two different variants of PE have also been implemented. These are the modified permutation entropy (by setting mod_flag=1) and weighted PE (by setting typ='wt')
-  
+ 
+## Requirements
+
+- PyEMD library: $ pip install EMD-signal
+- nolds library: $ pip install nolds
   
 ## Reference
 Tiwari, Abhishek, Isabela Albuquerque, Mark Parent, Jean-François Gagnon, Daniel Lafond, Sébastien Tremblay, and Tiago H Falk. "Multi-Scale Heart Beat Entropy Measures for Mental Workload Assessment of Ambulant Users." Entropy 21, no. 8 (2019): 783.
