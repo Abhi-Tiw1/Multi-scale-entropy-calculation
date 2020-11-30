@@ -15,10 +15,10 @@ This repository implements various multi-scale entropy algorithms. The algorithm
  
 ## Requirements
 
-- PyEMD library: 
-  $ pip install EMD-signal
-- nolds library: 
-  $ pip install nolds
+PyEMD and nolds library: 
+
+    $ pip install EMD-signal
+    $ pip install nolds
   
 ## Reference
 Tiwari, Abhishek, Isabela Albuquerque, Mark Parent, Jean-François Gagnon, Daniel Lafond, Sébastien Tremblay, and Tiago H Falk. "Multi-Scale Heart Beat Entropy Measures for Mental Workload Assessment of Ambulant Users." Entropy 21, no. 8 (2019): 783.
